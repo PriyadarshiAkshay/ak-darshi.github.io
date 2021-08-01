@@ -1,4 +1,4 @@
-<html lang="en">
+<!-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,9 +6,249 @@
     <title>Akshay Priyadarshi</title>
 </head>
 <body>
-    <h1>Hello World 22</h1>
-    <a href='MLProject.html'>Link to my machine learning project</a>
-    <a href='ML_Lecture.html'>Link to my machine learning lecture</a>
+    
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      div {
+        max-width: 900px;
+        min-width: 600px;
+        margin: auto;
+        text-align: justify;
+        text-justify: inter-word;
+        padding: 25px 20px 30px 20px;
+        font-size: 20px;
+        line-height: 26px;
+
+        /*background-color: lightskyblue;*/
+      }
+
+      div.callout {
+        height: 60px;
+        width: 200px;
+        float: left;
+      }
+
+      div.callout {
+        background-color: #444;
+        background-image: -moz-linear-gradient(top, #444, #444);
+        position: relative;
+        color: #ccc;
+        padding: 10px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 20px #999;
+        margin: 25px;
+        min-height: 50px;
+        border: 1px solid #333;
+        text-shadow: 0 0 1px #000;
+
+        /*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;*/
+      }
+
+      .callout::before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        border: 0.8em solid transparent;
+        position: absolute;
+      }
+
+      .callout.top::before {
+        left: 45%;
+        bottom: -20px;
+        border-top: 10px solid #444;
+      }
+
+      .callout.bottom::before {
+        left: 45%;
+        top: -20px;
+        border-bottom: 10px solid #444;
+      }
+
+      .callout.left::before {
+        right: -20px;
+        top: 40%;
+        border-left: 10px solid #444;
+      }
+
+      .callout.right::before {
+        left: -20px;
+        top: 40%;
+        border-right: 10px solid #444;
+      }
+
+      .callout.top-left::before {
+        left: 7px;
+        bottom: -20px;
+        border-top: 10px solid #444;
+      }
+
+      .callout.top-right::before {
+        right: 7px;
+        bottom: -20px;
+        border-top: 10px solid #444;
+      }
+
+      @import url("https://rsms.me/inter/inter.css");
+      html {
+        font-family: "Inter", sans-serif;
+      }
+      @supports (font-variation-settings: normal) {
+        html {
+          font-family: "Inter var", sans-serif;
+        }
+      }
+      .box {
+        border-radius: 2px 15px 7px;
+        font-size: 20px;
+        background: #323232;
+        color: #e2e2e2;
+        padding: 10px;
+        border: 1px solid white;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+          0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        margin: auto;
+        min-width: 50%;
+        max-width: 90%;
+      }
+      .wbox {
+        border-radius: 2px 2px 2px;
+        font-size: 20px;
+        background: #FAFAFA;
+        color: #212121;
+        padding: 8px;
+        border: 1px solid white;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2),
+          0 2px 5px 0 rgba(0, 0, 0, 0.19);
+        margin: auto;
+        min-width: 55%;
+        max-width: 95%;
+      }
+
+      img {
+        border-radius: 2px;
+        position: relative;
+        margin: auto;
+        display: block;
+        border: 1px solid white;
+        max-width: 100%;
+        max-height: 100%;
+        min-width: 70%;
+      }
+      img.graph {
+        padding-right: 13%;
+        min-height: 100%;
+      }
+
+      .video-container {
+        position: relative;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        max-width: 75%;
+        height: auto%;
+      }
+      .video-container iframe,
+      .video-container object,
+      .video-container embed {
+        position: relative;
+        width: 100%;
+        height: auto%; /*or whatever % you prefer*/
+        margin: 0 auto;
+        display: block;
+        border: 1px solid white;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+          0 3px 10px 0 rgba(0, 0, 0, 0.19);
+      }
+      a:link {
+        color: #4169E1;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #4D71A3;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+    <title>Akshay Priyadarshi</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align:center; padding: 10px;line-height: 34px;">
+        Akshay Priyadarshi
+      </h1>
+      <div>
+        Aug 2021
+        <hr style="height:3px" />
+        <div class="wbox">
+          <p style="font-size:16px;">
+            Akshay Priyadarshi MSc in Physics with CS |&nbsp;<a
+              href="mailto: akshay.priyadarshi@niser.ac.in"
+              >akshay.priyadarshi@niser.ac.in</a
+            >
+            <br/>
+            <a href='MLProject.html'>Link to my machine learning project</a> <br/>
+            <a href='ML_Lecture.html'>Link to my machine learning lecture</a> 
+          </p>
+        </div>
+        <hr />
+        <h2>
+          Akshay Priyadarshi
+        </h2>
+        <div class="wbox">
+          Jump to:<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;<a href="#Example_Problem">Example Problem</a> <br />
+        </div>
+        <h3 id="Example_Problem">
+          Example Problem
+        </h3>
+    
+        <p style="font-size:16px;">
+          If you come across any error, kindly  <a
+          href="mailto: akshay.priyadarshi@niser.ac.in"
+          target="_blank"
+          >mail me</a
+        >
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
+
+
 
